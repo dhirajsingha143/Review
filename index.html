@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+        <h1 id="title">FreeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <form action="" id="survey-form">
+            <fieldset>
+            <div>
+                <label for="" id="name-label">Name<input id="name" type="text" placeholder="Enter your Name" required /></label>
+                <label for="" id="email-label">Email<input id="email" type="email" placeholder="Enter your Email" required /></label>
+                <label for="" id="number-label">Age(optional)<input id="number" type="number" placeholder="Enter your Age" min="13" max="120" /></label>
+                <label class="dropdown-label">Which option best describes your current role?</label>
+            </div>
+            <div>
+            <select name="role" id="dropdown">
+                <option value="volvo">Select current role</option>
+                <option value="saab">Student</option>
+                <option value="mercedes">Full Time Job</option>
+                <option value="mercedes">Full Time Learner</option>
+                <option value="mercedes">Prefer not to say</option>
+                <option value="mercedes">Other</option>
+                <option value="audi">Audi</option>
+            </select>
+            </div>
+            <div>
+            <label for="">Would you recommend freeCodeCamp to a friend?</label>
+            </div>
+            <div class="radio">
+            <label><input type="radio" name="recommends" value="anything"/>Definitely</label>
+            <label><input type="radio" name="recommends" value="anything"/>Maybe</label>
+            <label><input type="radio" name="recommends" value="anything"/>Not sure</label>
+            </div>
+            <div>   
+            <label for="">What is your favorite feature of freeCodeCamp?</label>
+            </div>
+            <div>
+            <select name="role" id="feature">
+                <option value="volvo">Select an option</option>
+                <option value="saab">Challenges</option>
+                <option value="mercedes">Projects</option>
+                <option value="mercedes">Community</option>
+                <option value="mercedes">Open Source</option>
+            </select>
+            </div>
+            <div>
+            <label for="">What would you like to see improved? (Check all that apply)</label>
+            </div>
+            <div><input type="checkbox" value="anything"/>Front-end Projects</div>
+            <div><input type="checkbox" value="anything"/>Back-end Projects </div> 
+            <div><input type="checkbox" value="anything"/>Data Visualization</div>
+            <div><input type="checkbox" value="anything"/>Challenges</div>
+            <div><input type="checkbox" value="anything"/>Open Source Community</div>
+            <div><input type="checkbox" value="anything"/>Gitter help rooms</div> 
+            <div><input type="checkbox" value="anything"/>Videos</div>
+            <div><input type="checkbox" value="anything"/>City Meetups</div>
+            <div><input type="checkbox" value="anything"/>Wiki</div>
+            <div><input type="checkbox" value="anything"/>Forum</div>
+            <div><input type="checkbox" value="anything"/>Additional Courses</div>
+            <div><label for="">Any comments or suggestions?</label></div>
+            <div><textarea name="" id="textarea" cols="40" rows="5"></textarea></div>
+            <input type="submit" id="submit" />
+            </div>
+            </fieldset>
+        </form>
+  </body>
+</html>
